@@ -43,7 +43,7 @@ function Register(){
         <>
                 <section>
                     <Helmet title='Signup'>
-                        <CommonSection title='signup' />
+                        <CommonSection title='Signup' />
                     <Container>
                         <Row>
                             <Col lg='6' md='6' sm='12' className='m-auto text-center mt-5 mb-5'>
@@ -75,5 +75,3 @@ function Register(){
 }
 
 export default Register;
-
-// ref={signupNameRef} - in input fields
