@@ -1,0 +1,37 @@
+form{
+    background: #ffe6e6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+.login_btn{
+    color: white;
+    background: orangered;
+    padding: 7px 19px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.login-link{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+.error_msg {
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+h2 span{
+    font-weight: 800;
+}

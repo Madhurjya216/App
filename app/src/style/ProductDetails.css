@@ -1,0 +1,227 @@
+.product_datails-align{
+    margin-top: 70px;
+}
+
+.product_details_btn{
+    border-radius: 5px;
+    border: none;
+    background: orangered;
+    color: white;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+.product_title{
+    font-weight: 800;
+}
+
+.product_price{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.product_price span{
+    font-size: 25px;
+    color: green !important;
+    font-weight: 700;
+}
+
+.single_product-content p{
+    color: grey;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.single_product-content p .category-bedge{
+    color: red;
+    font-weight: 800;
+    background: #ffcccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.single_product-content{
+    margin-left: 205px;
+}
+
+.product_main_img img{
+    border-radius: 10px;
+}
+
+.product_main_img{  
+  width: 150%;
+}
+
+.tabs {
+    border-bottom: 1px solid #fde4e4;
+  }
+  
+  .tabs h6 {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .tab_content {
+    padding: 30px 0px;
+  }
+  
+  .tab_content p {
+    line-height: 30px;
+    color: #212245b6;
+  }
+  
+  .tab_active {
+    color: #df2020;
+  }
+
+  .form {
+    width: 60%;
+    margin: auto;
+    background: #fde4e4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form_group {
+    margin-bottom: 30px;
+  }
+  .form_group input,
+  .form_group textarea {
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+  }
+  
+  .form_group input:focus,
+  .form_group textarea:focus {
+    outline: none;
+  }
+  
+  .submit_btn{
+    background: orangered;
+    color: white;
+    padding: 8px 20px;;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .user_name {
+    font-weight: 600;
+    color: #212245;
+  }
+  
+  .user_email {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+  .feedback_text {
+    color: #212245b6;
+  }
+  
+  .img_item {
+    cursor: pointer;
+    width: 200%;
+  }
+
+  .img_item img{
+    border-radius: 10px;;
+  }
+
+  .related_Product-title {
+    font-size: 1.4rem;
+  }
+
+  .related_product{
+    font-weight: 800;
+    margin-left: 9px;
+  }
+
+  .related_product span{
+    color: red;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .product_title {
+      font-size: 1.2rem;
+    }
+    .product_price,
+    .product_price span {
+      font-size: 1rem;
+    }
+    .category,
+    .category span {
+      font-size: 0.8rem !important;
+    }
+  
+    .tabs {
+      margin-top: 30px;
+    }
+    .tabs h6 {
+      font-size: 0.9rem;
+    }
+  
+    .tab_content p,
+    .user_name,
+    .feedback_text {
+      font-size: 0.8rem;
+    }
+    .user_email {
+      font-size: 0.7rem;
+    }
+  
+    .form {
+      width: 100% !important;
+      margin-top: 50px;
+    }
+  
+    .form_group input::placeholder,
+    .form_group textarea::placeholder {
+      font-size: 0.8rem;
+    }
+    .related_Product-title {
+      font-size: 1.2rem;
+    }
+
+    .product_images{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .single_product-content {
+      margin-left: 2px;
+    }
+
+    .product_main_img img{
+      width: 60% !important;
+      margin-bottom: 10px;
+    }
+
+    .product_images{
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .product_images {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .product_main-img {
+      margin-bottom: 20px;
+    }
+
+    .product_main_img img{
+      width: 60% !important;
+      margin-bottom: 10px;
+    }
+
+    .product_images{
+      margin-bottom: 20px;
+    }
+  }

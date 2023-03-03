@@ -1,0 +1,45 @@
+.checkout_bill {
+    background: #fde4e4;
+    padding: 30px;
+  }
+  
+  .checkout_total {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+  }
+
+  .payment-btn{
+    background: orangered;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .checkout_hd{
+    font-weight: 800;
+  }
+
+  .align_img{
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .check_payment{
+    font-weight: 800;
+  }
+
+  .check_payment span{
+    color: orangered;
+    font-size: 20px;
+  }
+
+  .checkout_btn{
+    background: orangered;
+    color: white;
+  }
+
+  .checkout-table{
+    display: flex;
+  }

@@ -1,0 +1,23 @@
+*{
+  font-family: 'Nunito';
+}
+
+body {
+  background: #fcfcfc;
+}
+
+
+/* =============================== Scroll bar design =================================== */
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: orangered; 
+  border-radius: 3px;
+}
+
+html, body{
+  overflow-x: hidden;
+}

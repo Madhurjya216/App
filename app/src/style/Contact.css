@@ -1,0 +1,23 @@
+.contact-hd{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+
+.contact_btn{
+    border: none;
+    border-radius: 6px;
+    background-color: orangered;
+    color: white;
+    padding: 8px 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-hd{
+        font-size: 20px;
+    }
+
+    #gmap_canvas{
+        width: 100%;
+    }
+  }
