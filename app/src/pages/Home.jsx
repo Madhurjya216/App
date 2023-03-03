@@ -78,9 +78,13 @@ function Home(){
                         </div>
                     </div>
 
+                {/* ==================== weather app section ======================= */}
+
                     <section>
                         <Weather />
                     </section>
+
+                {/* ==================== category section ======================= */}
 
                     <section className='category-sec'>
                         <Category />
@@ -104,7 +108,7 @@ function Home(){
                                             alt="feature-img"
                                             className="mb-3"
                                         />
-                                        <h5 className="fw-bold mb-3">{item.title}</h5>
+                                        <h5 className="feature_title fw-bold mb-3">{item.title}</h5> 
                                         <p>{item.desc}</p>
                                         </div>
                                     </Col>

@@ -393,3 +393,13 @@
         left: 44%;
     }
 }
+
+@media only screen and (max-width: 520px) {
+    .category_item h6 {
+        font-size: 18.5px;
+    }
+
+    .category_img img{
+        width: 65px;
+    }
+}
