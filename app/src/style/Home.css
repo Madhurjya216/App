@@ -1,7 +1,7 @@
 /* ======================== home section ============================== */
 
 .main-bg{
-    background:  url(https://i.ibb.co/M2VMbrc/bd-img.jpg) no-repeat;
+    background:  url(../../public/images/bd-img.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -9,7 +9,7 @@
     border-radius: 8px;
     margin-top: 10px;
 }
-
+/* https://i.ibb.co/M2VMbrc/bd-img.jpg */
 .main-heading{
     text-align: center;
     height: 100vh;
@@ -85,13 +85,14 @@
     padding-top: 50px;
     border: 1px solid purple;
     height: 400px;
-    background: url(https://i.ibb.co/vxK5Xfd/ad-bg.jpg)no-repeat;
+    background: url(../../public/images/ad-bg.jpg)no-repeat;
     background-size: 100%;
     background-position: right;
     width: 80%;
     border: none;
     border-radius: 10px;
 }
+/* https://i.ibb.co/vxK5Xfd/ad-bg.jpg */
 
 #h1{
     font-size: 60px;;
@@ -132,7 +133,7 @@
 }
 
 
-/* ================ Weather section =================== */
+/* ================ Home-weather section =================== */
 
 .weather_contain{
     background: whitesmoke;
