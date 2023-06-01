@@ -91,7 +91,7 @@ const Td = (props) => {
     return( 
     <div className='checkout-table d-flex align-items-center justify-content-between'>
         <span className='text-center cart_img-box'>
-            <img src={image} alt-={name}  />
+            <img src={image} alt={name}  />
         </span>
         <span className='text-center'>{name}</span>
         <span className='text-center price-color'><i className="fa-solid fa-indian-rupee-sign"></i>{price}/-</span>
